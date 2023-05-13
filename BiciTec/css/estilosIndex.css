@@ -1,0 +1,42 @@
+header {
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+  }
+  
+  h1 {
+    margin: 0; /* Elimina el margen por defecto */
+    
+  }
+
+  .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  img{
+    height: auto;
+    width: 250px;
+  }
+
+  h4, h2{
+background-color: white;
+border-radius: 10px;
+
+  }
+
+  footer{
+    
+    text-align: center;
+  }
+
+  p{
+    text-align: left;
+    font-size: large;
+  }
+
+  
+  

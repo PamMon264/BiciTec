@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" style= "background-image: url('./img/FondoBic.jpg');">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Libreria</title>
+        <link href=" ./css/estilos.css" rel="stylesheet">
+        
+    </head>
+    <body>
+       
+        <div >
+            <div >
+
+                <form role="form" name="login" method="POST" action="./php/iniciarSesion.php" >
+                    
+                        <label for="CorreoUsuario"><b>Correo:</b></label>
+                        <input  name="CorreoUsuario" id="CorreoUsuario" type="email"  placeholder="Tu correo electronico" required >
+                        <div id="CorreoUsuario-error"></div>
+     <br>                   
+                        <label for="Password"><b>Contraseña:</b></label>
+                        <input  name="Password" id="Password" type="password" pattern="[a-zA-Z0-9]{6,12}" placeholder="8 a 12 caracteres" maxlength = "12" minlength ="8" required >
+                        <div id="Password-error"></div>
+                    
+                  <br>
+                  <button name="login" type="submit" style="background-color: blue;" >
+                    Ingresar
+                </button>
+                   
+                </form>
+            </div>
+        </div>
+        <br>
+        
+            <footer >  
+                <br>
+                <div >
+                   <a href="./index.php"><b>Regresar al menu principal</b></a>
+                    <br>
+                    <br>
+                    <b>BiciTec S.A. de C.V.</b>
+                    <br>
+                    <br>
+                </div>
+                   
+            </footer>
+
+            <script src="./js/ErrorLogin.js"></script>
+
+</body></html>
+
